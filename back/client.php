@@ -15,7 +15,7 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c79ef9f9bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
         </style>
@@ -36,7 +36,7 @@ if (!isset($_SESSION['username'])) {
     </label>
 
     <ul class="menu">
-    <li id="left"><a href="index.php"><i class="fas fa-home"></i><strong> Acceuil</strong></a></li>
+    <li id="left"><a href="client.php"><i class="fas fa-home"></i><strong> Acceuil</strong></a></li>
         <li id="left"><a href="#"><i class="fas fa-shopping-bag"></i><strong> Produits</strong></a></li>
         <li id="left"><a href="#"><i class="far fa-gem"></i><strong> Marques</strong></a></li>
         <li id="left"><a href="#"><i class="far fa-newspaper"></i><strong> Magazine</strong></a></li>
@@ -47,7 +47,7 @@ if (!isset($_SESSION['username'])) {
         
     </ul>
     <ul class="profile">
-        <li><a href="logout.php"><strong>Déconnexion</strong></a></li>
+        <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i><strong> Déconnexion</strong></a></li>
     </ul>
 </header>
 

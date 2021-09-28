@@ -10,18 +10,18 @@
         </label>
 
         <ul class="menu">
-            
+        <li id="left"><a href="index.php"><i class="fas fa-home"></i><strong> Acceuil</strong></a></li>
             <li id="left"><a href="#"><i class="fas fa-shopping-bag"></i><strong> Produits</strong></a></li>
             <li id="left"><a href="#"><i class="far fa-gem"></i><strong> Marques</strong></a></li>
             <li id="left"><a href="#"><i class="far fa-newspaper"></i><strong> Magazine</strong></a></li>
-            <li id="left"><a href="#"><i class="fas fa-shopping-cart"></i><strong> Panier</strong></a></li>
+            
             <label for="chk" class="hide-menu-btn">
                 <i class="fas fa-times"></i>
             </label>
             
         </ul>
         <ul class="profile">
-            <li><a href="connexion.php"><i class="fas fa-user"></i><strong> S'identifier</strong></a></li>
+            <li><a href="back/connexion.php"><i class="fas fa-user"></i><strong> S'identifier</strong></a></li>
         </ul>
     </header>
 

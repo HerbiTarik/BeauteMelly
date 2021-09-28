@@ -360,6 +360,10 @@ ul{
 	background-color: #ffffff;
 }
 
+
+   
+
+
 @media(max-width:1220px){
     .menu a{
         padding: 40px 20px 34px 20px;
@@ -478,6 +482,8 @@ ul{
         .show-menu-btn,.hide-menu-btn{
             visibility: hidden;
         }
+   
+        
     }
     
  

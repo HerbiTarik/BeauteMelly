@@ -1,9 +1,9 @@
-<?php include("header_footer/head.php");?>
+<?php include("back/head.php");?>
 <body>
 
     <!--header-->
 
-   <?php include("header_footer/header.php");?>
+   <?php include("back/header.php");?>
            <!------images--------------------------------------------------------------------->
            <div class="slider">
 
@@ -327,7 +327,7 @@
         <script type="text/javascript" src="js/main.js"></script>
 
         <!--footer--------------------------------------------->
-       <?php include("header_footer/footer.php"); ?>
+       <?php include("back/footer.php"); ?>
 
 </body>
 </html>

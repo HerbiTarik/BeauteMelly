@@ -47,7 +47,7 @@ if (!isset($_SESSION['username'])) {
         
     </ul>
     <ul class="profile">
-        <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i><strong> Déconnexion</strong></a></li>
+        <li><a href="logout.php"><strong>Déconnexion</strong></a></li>
     </ul>
 </header>
 

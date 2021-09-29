@@ -39,7 +39,7 @@
 
     <header>
     
-    <div class="logo"><a href="#">BeautéMelly</a></div>
+    <div class="logo"><a href="../index.php">BeautéMelly</a></div>
    
     <input type="checkbox" id="chk">
     <label for="chk" class="show-menu-btn">

@@ -19,7 +19,16 @@ if (!isset($_SESSION['username'])) {
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
         </style>
-      
+      <style type="text/css">
+      .slider h1{
+        margin: 10%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: 60px;
+    line-height: 1.6em;
+      }
+    </style>
     <title>Beauté Melly</title>
 </head>
 <body>
@@ -28,7 +37,7 @@ if (!isset($_SESSION['username'])) {
 
     <header>
     
-    <div class="logo"><a href="#">BeautéMelly</a></div>
+    <div class="logo"><a href="client.php">BeautéMelly</a></div>
    
     <input type="checkbox" id="chk">
     <label for="chk" class="show-menu-btn">
@@ -61,7 +70,7 @@ if (!isset($_SESSION['username'])) {
        </nav>
            <!------images--------------------------------------------------------------------->
            <div class="slider">
-
+           <?php echo "<h1>bienvenue " . $_SESSION['username'] . "<br>Faites des affaires!<br>Profitez de nos promotions en cours!</h1>"; ?>
            </div>
            <!------text---------------------------------------------------------------------->
            <div class="une">

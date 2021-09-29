@@ -17,7 +17,39 @@
 
     <!--header-->
 
-   <?php include("back/header.php");?>
+    <header>
+    
+    <div class="logo"><a href="#">BeautéMelly</a></div>
+   
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+
+    <ul class="menu">
+    <li id="left"><a href="index.php"><i class="fas fa-home"></i><strong> Acceuil</strong></a></li>
+        <li id="left"><a href="back/produit.php"><i class="fas fa-shopping-bag"></i><strong> Produits</strong></a></li>
+        <li id="left"><a href="back/marque.php"><i class="far fa-gem"></i><strong> Marques</strong></a></li>
+        <li id="left"><a href="back/magazine.php"><i class="far fa-newspaper"></i><strong> Magazine</strong></a></li>
+        
+        <label for="chk" class="hide-menu-btn">
+            <i class="fas fa-times"></i>
+        </label>
+        
+    </ul>
+    <ul class="profile">
+        <li><a href="back/connexion.php"><i class="fas fa-user"></i><strong> S'identifier</strong></a></li>
+    </ul>
+</header>
+
+<nav class="navbarre">
+            <div class="divsearch">
+            <div class="search">
+                 <input class="search-txt" type="text" name="box" placeholder="Rechercher un produit...">
+                 <a  class="search-btn"href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+       </nav>
            <!------images--------------------------------------------------------------------->
            <div class="slider">
 
@@ -53,289 +85,289 @@
            <main>
 		
             <div class="titre">
-                <h1>Top Hottest Products</h1>
+                <h1>Les meilleurs <font color="#fab1a0">produits</font></h1>
                 <p>
                     <span>&#139;</span>
                     <span>&#155;</span>
                 </p>
             </div>
             <section>
-                <div class="product">
-                    <picture>
-                        <img src="image/banner2.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product One</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+            <div class="product">
+                <picture>
+                    <img src="image/p1.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Skin-Renewing</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$45.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/banner1.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Two</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
-                </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/banner3.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Three</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
-                </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/banner4.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Four</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
-                </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/watch.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Five</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                    </p>
-                    <div class="button">
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
                     
-                        <a href="#">Acheter</a>
-                    </div>
+                    <a href="#">Acheter</a>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/delta.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Six</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p2.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Bvlgari Man</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$65.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/image3.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Seven</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p3.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Lines serum</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$37.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/image2.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Eight</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p4.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Palette Couture</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$45.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/nokia.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Nine</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p5.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Sacrée Frangine</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$83.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/nokia-air.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Ten</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p6.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Dullness Serum</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$35.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/feature_3.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Eleven</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p7.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Crème lifting</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$41.00</samp>
                 </div>
-                <div class="product">
-                    <picture>
-                        <img src="image/one.png" alt="">
-                    </picture>
-                    <div class="detail">
-                        <p>
-                            <b>Product Twelve</b><br>
-                            <small>New arrival</small>
-                        </p>
-                        <samp>$45.00</samp>
-                    </div>
-                    <p class="star">
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
-                        <strong>&star;</strong>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p8.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Masque en Stick</b><br>
+                        <small>New arrival</small>
                     </p>
-                    <div class="button">
-                        
-                        <a href="#">Acheter</a>
-                    </div>
+                    <samp>$47.00</samp>
                 </div>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p9.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Advanced Génifique</b><br>
+                        <small>New arrival</small>
+                    </p>
+                    <samp>$49.00</samp>
+                </div>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p10.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Perfect Mousse</b><br>
+                        <small>New arrival</small>
+                    </p>
+                    <samp>$48.00</samp>
+                </div>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p11.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>Shampooing</b><br>
+                        <small>New arrival</small>
+                    </p>
+                    <samp>$52.00</samp>
+                </div>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
+            <div class="product">
+                <picture>
+                    <img src="image/p12.jpg" alt="">
+                </picture>
+                <div class="detail">
+                    <p>
+                        <b>My Way</b><br>
+                        <small>New arrival</small>
+                    </p>
+                    <samp>$91.00</samp>
+                </div>
+                <p class="star">
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                    <strong>&star;</strong>
+                </p>
+                <div class="button">
+                    
+                    <a href="#">Acheter</a>
+                </div>
+            </div>
             </section>
         </main>        
         <script type="text/javascript" src="js/main.js"></script>

@@ -13,7 +13,7 @@
         <li id="left"><a href="index.php"><i class="fas fa-home"></i><strong> Acceuil</strong></a></li>
             <li id="left"><a href="#"><i class="fas fa-shopping-bag"></i><strong> Produits</strong></a></li>
             <li id="left"><a href="#"><i class="far fa-gem"></i><strong> Marques</strong></a></li>
-            <li id="left"><a href="#"><i class="far fa-newspaper"></i><strong> Magazine</strong></a></li>
+            <li id="left"><a href="back/magazine.php"><i class="far fa-newspaper"></i><strong> Magazine</strong></a></li>
             
             <label for="chk" class="hide-menu-btn">
                 <i class="fas fa-times"></i>

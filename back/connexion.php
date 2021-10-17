@@ -8,7 +8,7 @@ $database = "database";
 $conn = mysqli_connect($server, $user, $pass, $database);
 
 if (!$conn) {
-    die("<script>alert('La connexion a échouée.')</script>");
+    die("<script>alert('La connexion a échoué.')</script>");
 }
 session_start();
 
